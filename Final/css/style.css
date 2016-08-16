@@ -289,17 +289,38 @@ object-fit: cover;
 
 .shop {
 	width: 95%;
-	height: 800px;
+	height: 850px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 100px;
 /*	border: 3px solid red;
 */}
+
+.path {
+	height: auto;
+/*	border: 3px solid red;
+*/	padding: 10px 0px;
+}
+
+.path p {
+	font-size: .8em;
+	color: #85455C;
+}
+
+.path a {
+	color: #85455C;
+}
+
+.path a:hover {
+	color: black;
+	text-decoration: none;
+}
 
 #thumbnails {
 /*	border: 3px solid red;
 */	height: 800px;
-	padding: 0px;
-	margin: 0px;
+padding: 0px;
+margin: 0px;
 }
 
 .thumbnail1 {
@@ -312,14 +333,14 @@ object-fit: cover;
 .thumbnail1 img {
 /*	border: 3px solid blue;
 */	width: 100%;
-	height: 200px;
-	object-fit: cover;
+height: 200px;
+object-fit: cover;
 }
 
 .main-image {
 /*	border: 3px solid red;
 */	overflow: hidden;
-	height: 800px;
+height: 800px;
 }
 
 .main-image img {
@@ -332,7 +353,7 @@ object-fit: cover;
 .product {
 /*	border: 3px solid blue;
 */	width: 100%;
-	height: 800px;
+height: 800px;
 }
 
 .buy-add i {
@@ -340,7 +361,7 @@ object-fit: cover;
 }
 
 .rating i{
- color: #85455C;
+	color: #85455C;
 }
 
 #quantity {
@@ -436,6 +457,128 @@ font-weight: 300;
 	color: #85455C;
 }
 
+/*start sign in*/
+
+.signin {
+	width: 350px;
+	height: 500px;
+	margin: 30px auto 10px auto;
+/*	border: 3px solid red;
+*/	box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.12);
+}
+
+.signin h3 {
+	padding-top: 15px;
+	text-align: center;
+	line-height: 1.5em;
+	font-weight: 300;
+}
+
+.signin p {
+	text-align: center;
+	font-weight: 300;
+	font-size: 1.2em;
+}
+
+.input {
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+/*	border: 3px solid red;
+*/	font-weight: 300;
+}
+
+#emailinput {
+	margin: 50px 0px 20px 0px;
+	width: 300px;
+	height: 45px;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+}
+
+#passinput {
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	width: 300px;
+	height: 45px;
+}
+
+.checkbox {
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 20px;
+/*	border: 3px solid red;
+*/}
+
+.checkbox span {
+	font-weight: 300;
+	text-align: right;
+	padding-left: 70px;
+}
+
+.checkbox p {
+	font-size: 1em;
+	font-weight: 300;
+}
+
+.checkbox a {
+	color: #85455C;
+}
+
+.checkbox a:hover {
+	color: black;
+	text-decoration: none
+}
+
+.signbutton {
+/*	border: 3px solid red;
+*/	
+width: 300px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+margin-top: 20px;
+background-color: #85455C;
+padding:15px 0px;
+box-shadow: 0px;
+transition: .5s ease-in-out;
+}
+
+.signbutton:hover {
+	box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.15);
+	transition: .5s ease-in-out;
+}
+
+.signbutton a{
+	color: white;
+	font-size: 1.2em;
+	font-weight: 500;
+}
+
+.signbutton a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.createacc {
+	width: 150px;
+	margin: 0px auto 120px auto;
+	text-align: center;
+/*	border: 3px solid red;
+*/}
+
+.createacc a {
+	color: #85455C;
+}
+
+.createacc a:hover {
+	color: black;
+	text-decoration: none
+}
+
+/*start footer*/
+
 footer {
 	height: 30%;
 	background-color: black;
@@ -499,8 +642,8 @@ footer li {
 	width: 160px;
 /*	border: 3px solid red;
 */	margin-right: auto;
-	margin-left: auto;
-	margin-top: 20px;
+margin-left: auto;
+margin-top: 20px;
 }
 .whitelogo img {
 	width: 150px;
