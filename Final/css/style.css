@@ -126,8 +126,8 @@ nav {
 	height: 600px;
 	margin-left: auto;
 	margin-right: auto;
-	border: 3px solid red;
-	overflow: hidden;
+/*	border: 3px solid red;
+*/	overflow: hidden;
 	z-index: -10;
 }
 
@@ -139,8 +139,8 @@ nav {
 
 .caption {
 	width:550px;
-	border: 3px solid red;
-	background-color: gray;
+/*	border: 3px solid red;
+*/	background-color: gray;
 	position: absolute;
 	top: 50%;
 	left: 5%;
@@ -148,14 +148,14 @@ nav {
 
 #featured {
 	width: 95%;
-	border: 3px solid red;
-}
+/*	border: 3px solid red;
+*/}
 
-.image-height {
+.featured-image-block {
 	height: 400px;
 	overflow:hidden;
-	border: 3px solid blue;
-}
+/*	border: 3px solid blue;
+*/}
 
 #featured img {
 	height: 400px;
@@ -163,6 +163,18 @@ nav {
 	object-fit: cover;
 	/*	border: 3px solid blue;
 */
+}
+
+#upcoming {
+	width: 95%;
+	border: 3px solid blue;
+}
+
+#upcoming img {
+	border: 3px solid blue;
+	height: 300px;
+	width: 100%;
+	object-fit: cover;
 }
 
 footer {
