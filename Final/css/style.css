@@ -177,14 +177,14 @@ color: white;
 
 #featured {
 	width: 95%;
-	border: 3px solid red;
-}
+/*	border: 3px solid red;
+*/}
 
 .featured-image-block {
 	height: 400px;
 	overflow:hidden;
-	border: 3px solid blue;
-}
+/*	border: 3px solid blue;
+*/}
 
 #featured img {
 	height: 400px;
@@ -661,3 +661,5 @@ margin-top: 20px;
 	margin-top: 5px;
 /*	border: 3px solid red;
 */}
+
+@media screen and (max-width: 320px) {}
