@@ -67,7 +67,7 @@ nav {
 .menu-items {
 /*	border: 2px solid red;
 */	padding: 33px 0px;
-	text-align: center;
+text-align: center;
 }
 
 .items {
@@ -102,6 +102,39 @@ nav {
 */}
 
 /*end header*/
+
+.main-image-mobile {
+	width: 335px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+/*	border: 3px solid red;
+*/}
+
+.main-image-mobile img{
+	width: 600px;
+	height: auto;
+}
+
+.caption-mobile {
+	width:300px;
+	height: 100px;
+	background-color: rgba(74,74,74,.8);
+	position: absolute;
+	top: 73%;
+	left: 10%;
+	color: white;
+/*	border: 3px solid red;
+*/}
+
+.caption-mobile h5{
+	padding: 5px;
+}
+
+.caption-mobile h4{
+	padding: 5px;
+}
 
 #carousel {
 	width: 95%;
@@ -205,6 +238,8 @@ object-fit: cover;
 /*	border: 3px solid blue;
 */	height: 400px;
 width: 100%;
+	padding: 0px 15px;
+
 object-fit: cover;
 }
 
@@ -241,7 +276,7 @@ object-fit: cover;
 }
 
 .article-link a:hover{
-	color: #85455C;
+	color: black;
 	text-decoration: none;
 }
 
