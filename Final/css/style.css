@@ -661,11 +661,15 @@ footer {
 footer h6 {
 	color: white;
 	font-size: 1em;
+	/*	border: 3px solid red;
+*/
 }
 
 footer li {
 	color: white;
 	font-size: .8em;
+	/*	border: 3px solid red;
+*/
 }
 
 .whitelogo {
@@ -677,6 +681,8 @@ margin-top: 20px;
 }
 .whitelogo img {
 	width: 150px;
+	/*	border: 3px solid red;
+*/
 }
 
 .copyright {
