@@ -33,34 +33,45 @@
 		</div>
 
 		<div class="header">
-			<img class="logo" src="images/logo.png" alt="Logo">
+			<div class="row">
+				<div class="div col-md-2">
+					<img class="logo" src="images/logo.png" alt="Logo">
+				</div>
 
-			<div class="menu hidden-xs">
-				<ul>
-					<li class="hvr-underline-from-center"><a href="#">Categories</a></li>
-					<li class="hvr-underline-from-center"><a href="#">Today</a></li>
-					<li class="hvr-underline-from-center"><a href="#">History</a></li>
-					<li class="hvr-underline-from-center"><a href="#">Sell</a></li>	
-					<li class="hvr-underline-from-center"><a href="#">Buy</a></li>
-					<li class="hvr-underline-from-center"><a href="#">Limited</a></li>
-					<li class="hvr-underline-from-center"><a href="#">Help</a></li>
-					<li class="search">
-						<input id="search" type="text" name="search" >
-					</li>
-					<li id="cart"><a href="#"><i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i></a></li>
-					<li id="wish"><a href="#"><i class="fa fa-heart aria-hidden="true"></i></a></li>
-				</ul>
+				<div class="row menu-items">
+
+					<nav class="navbar navbar-default">
+						<div class="container-fluid">
+							<ul class="nav navbar-nav">
+								<li class="hvr-underline-from-center"><a href="#">Categories</a></li>
+								<li class="hvr-underline-from-center"><a href="#">Today</a></li>
+								<li class="hvr-underline-from-center"><a href="#">History</a></li>
+								<li class="hvr-underline-from-center"><a href="#">Sell</a></li>	
+								<li class="hvr-underline-from-center"><a href="#">Buy</a></li>
+								<li class="hvr-underline-from-center"><a href="#">Limited</a></li>
+								<li class="hvr-underline-from-center"><a href="#">Help</a></li>
+								<li class="search">
+									<input id="search" type="text" name="search" >
+								</li>
+								<li id="cart"><a href="#"><i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i></a></li>
+								<li id="wish"><a href="#"><i class="fa fa-heart aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+					</nav>
+
+
+				</div>
 
 			</div>
-
 		</div>
+
 
 		<!-- start shop section -->
 
 		<div class="container-fluid shop">
 			<div class="row">
 				<div class="col-lg-12 path">
-				<p><a href="index.html">Home</a> / All / Today's Featured / <a href="#">Purple Tahitian Carrot</a></p>
+					<p><a href="index.html">Home</a> / All / Today's Featured / <a href="#">Purple Tahitian Carrot</a></p>
 				</div>
 			</div>
 			<div class="row">
@@ -69,13 +80,13 @@
 					<div class="thumbnail1"> <img src="images/purple2.jpg"></div>
 					<div class="thumbnail1"> <img src="images/purple3.jpg"></div>
 				</div>
-				
+
 				<div class="col-md-5 col-sm-8">
 					<div class="main-image">
 						<img src="images/purple.jpg">
 					</div>
 				</div>
-				
+
 				<div class="col-md-6 col-sm-8 product">
 					<div class="product-title">
 						<h2>Tim Cook's Purple Tahitian - 2016 Harvest</h2>
@@ -92,7 +103,8 @@
 
 					<form>
 
-						<input id="quantity" type="number" name="points" min="0" max="11" step="1" value="0"> <small id="available" placeholder="Amount">11 available / 34 sold</small>
+						<input id="quantity" type="number" name="points" min="0" max="11" step="1" value="0">
+						<small id="available" placeholder="Amount">11 available / 34 sold</small>
 					</form>
 
 					<div class="buy-block">
@@ -121,8 +133,6 @@
 						<p><span class="titledesc"> Item Weight:</span> 15 ounces  -  may vary from product to product</p>
 
 						<p><span class="titledesc"> Warranty:</span> 1 week garranty</p>
-						
-						
 					</div>
 				</div>
 			</div>
@@ -215,17 +225,17 @@
 						</div>
 					</div>
 				</div>
+			</div>
+		</footer>	
+	</div> <!-- wrapper -->
 
-			</footer>
-		</div> <!-- wrapper -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 
-		<script src="js/bootstrap.min.js"></script>
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 
-		<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
-
-	</body>
+</body>
 
 
-	</html>
+</html>
